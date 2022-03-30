@@ -1,0 +1,48 @@
+import libraries and modules
+
+def input_fn():
+    get the input from user about the task they want to execute
+
+    Can either capture image, view pointcloud or quit
+
+def callback():
+    convert the rgb and depth image from encoded message to numpy array
+    start the threading
+
+class image_capture():
+    def __init__():
+        local variable initialisation
+
+    def get_rgb_and_depth_image():
+        save the rgb and depth image and plot them
+    
+class pointcloud():
+    def __init__():
+        local variable initialisation
+    
+    def pointcloud_generation():
+        read the rgb and depth image
+        combine them into a rgbd image
+        visualise it using open3d
+    
+    def save_pointcloud():
+        save the pointcloud if the user so choose
+
+class image_stream():
+    def __init__():
+        local variable initialisation
+
+    def get_image_stream(self, rgb_img, depth_img):
+        visualise the rgb and depth image separately using open3d
+    
+
+class get_distance_from_points():
+    def __init__():
+        local variable initialisation
+    
+    def get_distance():
+        incomplete (idea is to calculate the distance of each point from the camera)
+
+if __name__=="__main__":
+    get user input on the rgb_image_folder and depth_image_folder
+    get the message from the subscribed topic and synchronise the topic at the same time
