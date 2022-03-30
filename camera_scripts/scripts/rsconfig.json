@@ -1,0 +1,14 @@
+{
+    "name": "Realsense Bag File",
+    "path_dataset": "/home/marvin/catkin_ws/src/camera_scripts/scripts/bagfiles/testing3.bag",
+    "path_intrinsic": "/home/marvin/catkin_ws/src/camera_scripts/scripts/rsconfig.json",
+    "max_depth": 3.0,
+    "voxel_size": 0.05,
+    "max_depth_diff": 0.07,
+    "preference_loop_closure_odometry": 0.1,
+    "preference_loop_closure_registration": 5.0,
+    "tsdf_cubic_size": 3.0,
+    "icp_method": "color",
+    "global_registration": "ransac",
+    "python_multi_threading": true
+}
