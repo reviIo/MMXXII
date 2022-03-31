@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ################## The FPS averages around 15 atm, needs to be fine-tuned ##################
-############# Discontinued, use Rviz or other visualisation softwares instead ##############
+######## Discontinued, easier to use Rviz or other visualisation softwares instead #########
 
 import os
 import sys
@@ -101,5 +101,5 @@ cid = fig.canvas.mpl_connect("key_press_event", close)
 
 plt.show()
 
-# Kill the process that is playing the rosbag file to exit the program
+# Kill the process that is playing the rosbag file and exit the program
 os.killpg(os.getpgid(command.pid), signal.SIGTERM)
