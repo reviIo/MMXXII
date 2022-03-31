@@ -16,7 +16,7 @@ class ImageListener:
         self.sub = rospy.Subscriber(topic, msg_Image, self.imageDepthCallback)
 
     def imageDepthCallback(self, data):
-        """Continuous print out the distance of the object at the centre pixel,
+        """Continuously print out the distance of the object at the centre pixel,
         can be altered to find the distance at all pixels within the image."""
         try:
             cv_image = self.bridge.imgmsg_to_cv2(data, data.encoding)
