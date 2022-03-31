@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 ################## The FPS averages around 15 atm, needs to be fine-tuned ##################
+######## Discontinued, easier to use Rviz or other visualisation softwares instead #########
 
 import rospy
 import matplotlib.pyplot as plt
