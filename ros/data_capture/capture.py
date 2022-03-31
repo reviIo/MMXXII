@@ -14,7 +14,7 @@ from sensor_msgs.msg import Image
 
 ###############################################################################################################
 
-# Variable initialisation
+# Variable assignment
 
 num = 1
 version = 0
